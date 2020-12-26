@@ -1,0 +1,279 @@
+body{
+    display: flex;
+    background-color:#45da7c ;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+max-width: 80%;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+#sec1-left {
+    width: 50%;
+    background-color:#45da7c ;
+height: 90vh;
+
+border-top-left-radius: 5%;
+border-bottom-left-radius: 5%;
+border-right:none;
+box-shadow: 2px 6px 20px 2px black;
+
+}
+#sec1-left .left {
+color: white;
+padding: 5%;
+margin-bottom: 2%;
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serifs;
+}
+#sec1-left  h2{
+    
+    font-size: 40px;
+    
+}
+
+    #sec1-left .left  h3  {
+        margin-left: 4%;
+        
+        padding-top: 2%;
+             font-size: 28px;    
+             word-spacing: 10px;
+    }
+
+#sec1-left .left  h3:nth-child(3){
+        padding-top: 20px;
+        font-size: 35px;    
+    }
+#sec1-left .left i{
+    color : whitesmoke;
+    font-size: 15px;
+opacity: 50%;
+}
+#sec1-left .left li{
+font-weight: 500;
+font-size: 25px;
+margin-top: 5%;
+margin-left: 5%;
+}
+#sec1-left .left h4{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: sans-serif;
+font-weight: 100;
+font-size: 20px;
+color: white;
+opacity: 60%;
+} 
+#sec1-left .left h4{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: sans-serif;
+font-weight: 100;
+font-size: 20px;
+color: white;
+opacity: 60%;
+}
+#sec1-left .left h4:nth-child(3){
+    
+    font-family: sans-serif;
+font-weight: 100;
+font-size: 20px;
+color: white;
+opacity: 60%;
+}
+#sec1-left .left p{
+    padding-top:2%;
+    font-size: 10px;
+}
+                    /* RIGHT SIDE */ 
+#sec2-right {
+    background-color:#1f444e ;
+width:50% ;
+box-shadow: 2px 6px 20px 2px black;
+
+
+border-top-right-radius: 5%;
+border-bottom-right-radius: 5%;
+}
+#sec2-right .right{
+padding-left:12% ;
+padding-top:5% ;
+
+}
+    
+#sec2-right .buttons{
+    display: flex;
+}
+#sec2-right .buttons button:nth-child(1){
+    background-color:transparent;
+    color: white;
+ margin-left:10% ;
+width: 20%;
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:500;
+height: 10%;
+border: none;
+font-size:30px;
+font-weight: 100;
+color: white;
+opacity: 60%;
+}
+
+
+#sec2-right .buttons button:nth-child(2){
+    background-color:transparent;
+    color: white;
+
+    margin-left:10% ;width: 20%;
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+height: 10%;
+border-top: none;
+border-right: none;
+border-bottom: none;
+font-size:30px;
+color: white;
+border-left-color: #45da7c ;
+border-width: 4px;
+}
+#sec2-right .infos {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+color: white;
+padding-left: 10%;
+padding-top:7%;
+}
+#sec2-right .infos h3{
+padding-top:5%;
+}
+#sec2-right .infos input{
+    width: 70%;
+    height:30px;
+    background-color: transparent;
+    margin-top:2%;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-size: 15px;
+    color: white;
+}
+/* TERMS BTN */
+.showOverlay {
+  bottom: 0;
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 7px;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 450;
+}
+a:hover, a:active {
+  color: #45da7c ;
+}
+.container {
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  margin-top: 5%;
+}
+.hidden {
+  display: none;
+}
+.entry {
+  height: 25px;
+  position: absolute;
+  width: 190px;
+  
+}
+.entry:nth-child(2) {
+  left: 8px;
+  top: 8px;
+}
+.entry:nth-child(4) {
+  left: 8px;
+  top: 58px;
+}
+.entry:nth-child(6) {
+  left: 8px;
+  top: 108px;
+}
+.circle {
+  border: 2px solid #45da7c;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  transition: border-color 300ms;
+  width: 20px;
+}
+.entry-label {
+  cursor: pointer;
+  margin-top:2px;
+  padding-left: 40px;
+  user-select: none;
+  -moz-user-select: none;
+
+  width: 290px;
+  color: white;
+  font-weight: 100;
+  text-transform: lowercase;
+
+}
+.overlay {
+  background: transparent;
+  mask: url(#holes);
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAACMCAYAAAAOc+uVAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAItSURBVHic7ZnNjhJBFIVPA0txr0Iyw+tIdOXWaDRufZWZeYbZuMKOUV9Gg+HHGN/BHBcNcSBT1KVOEVycb0mq635UVd9U5zQkif+Y3rkFclhQxYIqFlQZiM8vALQAPgP4AWC1+X0E4ALAFMBzAOPiCixjRfIdyX5g/h7JFyTnJYVKBGckHxQsxJBke2rBK5LF55bdal6fSnCmyO1JhlcyKrhkwbYekBySXNcUfF1L7o7k20jhhsxetxYAJk3T/Kks2EfXmkaHxkXO1MfacgCwmbPNjYsIftV1knzJDYgIfqsgkuJ7bkBE8FcFkRTr3IBzXxay9SOCjyuIFM8dEZxUECmeOyL4tIJIimluQKRRLwFcnqBRDwDMUaFRjwG8quC0zxtk5ACEL6wrksNaZiQfkvwZKRxtM08AfGDgBh2Q6wG4BfAo+sAxXB/xp+6VI3lzTMGSK3/Lgu1mt62fji1W+tH0m+R7dm9iZNVeMnjm9om0mUOs8O+zc47dz84Juh76DJG3NYEqeHLOfVnIYkEVC6pYUMWCKhZUsaCKBVUsqGJBFQuqWFDFgipO3OnEfRcn7qWCTtxTOHFP4cS9Ek7cVZy4qzhxL4ZO3AXoxF2QoxP3DifuW5y4q1hQxYIqFlSxoIoFVSyoYkEVC6pYUMWCKhZUsaCKE3c6cd/FiXupoBP3FE7cUzhxr4QTdxUn7ipO3IuhE3cBOnEX5OjEvcOJ+xYn7ioWVLGgigVV/gKEL4RSyM8Z8wAAAABJRU5ErkJggg==);
+  height: 140px;
+  pointer-events: none;
+  transition: background 300ms;
+  width: 140px;
+}
+.highlight {
+  background: white;
+  border-radius: 90%;
+  height: 9px;
+  left: 15px;
+  pointer-events: none;
+  position: absolute;
+  top: 16px;
+  transition: transform 400ms cubic-bezier(0.175, 0.885, 0.32, 1.2);
+  transform: translateY(-50px);
+  width: 9px;
+}
+.hidden:nth-child(1):checked ~ .highlight {
+  transform: translateY(0);
+}
+.hidden:nth-child(3):checked ~ .highlight {
+  transform: translateY(50px);
+}
+.hidden:nth-child(5):checked ~ .highlight {
+  transform: translateY(100px);
+}
+.hidden:nth-child(1):checked + .entry .circle {
+  border-color: white;
+  background-color: #45da7c;
+}
+.hidden:nth-child(3):checked + .entry .circle {
+  border-color: #45da7c;
+}
+.hidden:nth-child(5):checked + .entry .circle {
+  border-color:#45da7c;
+}
+.Sign{
+  width: 20%;
+  height: 4vh;
+  border-radius: 30px;
+  color: #45da7c;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 700;
+box-shadow: 1px 2px 20px 1px #45da7c;
+margin-top: -20px;
+margin-left: 30%;
+border-color: #45da7c;
+}
